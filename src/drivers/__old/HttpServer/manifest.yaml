@@ -1,0 +1,14 @@
+name: HttpServer
+main: HttpServer.ts
+system: true
+
+ios:
+  - HttpServer
+
+props:
+  host:
+    type: string
+    default: localhost
+  port:
+    type: number
+    default: 80

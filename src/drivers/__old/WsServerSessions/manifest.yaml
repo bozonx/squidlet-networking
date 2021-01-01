@@ -1,0 +1,12 @@
+name: WsServerSessions
+main: WsServerSessions.ts
+
+drivers:
+  - WsServer
+
+props:
+  $base: 'drivers.WsServer'
+  # session expiration time in seconds
+  expiredSec:
+    type: number
+    default: 30

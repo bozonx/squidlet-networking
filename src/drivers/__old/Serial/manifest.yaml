@@ -1,0 +1,11 @@
+name: Serial
+main: Serial.ts
+system: true
+
+ios:
+  - Serial
+
+props:
+  portNum:
+    type: number | string
+    required: true

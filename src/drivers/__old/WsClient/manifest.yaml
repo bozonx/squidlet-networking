@@ -1,0 +1,24 @@
+name: WsClient
+main: WsClient.ts
+system: true
+
+ios:
+  - WebSocketClient
+
+props:
+  url:
+    type: string
+    default: "ws://localhost:8080"
+  autoReconnect:
+    type: boolean
+    default: false
+  reconnectTimeoutMs:
+    type: number
+    # in ms
+    default: 1000
+  maxTries:
+    type: number
+    default: -1
+  useCookie:
+    type: boolean
+    default: false

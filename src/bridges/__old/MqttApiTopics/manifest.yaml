@@ -1,0 +1,12 @@
+name: MqttApiTopics
+main: MqttApiTopics.ts
+system: true
+
+drivers:
+  - Mqtt
+
+props:
+  $base: 'drivers.Mqtt'
+  # Prefix of each request. Usually it's unique id or token.
+  prefix:
+    type: string

@@ -1,0 +1,8 @@
+name: HttpServerRouter
+main: HttpServerRouter.ts
+
+drivers:
+  - HttpServer
+
+props:
+  $base: 'drivers.HttpServer'

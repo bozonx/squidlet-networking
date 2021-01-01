@@ -1,0 +1,10 @@
+name: GpioLocal
+type: gpio
+main: GpioLocal.ts
+
+ios:
+  - Digital
+
+props:
+  defaultDebounce:
+    type: number

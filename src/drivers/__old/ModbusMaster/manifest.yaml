@@ -1,0 +1,14 @@
+name: ModbusMaster
+main: ModbusMaster.ts
+system: true
+
+ios:
+  - ModBusMasterRtu
+
+props:
+  portNum:
+    type: number
+    required: true
+  slaveId:
+    type: number
+    required: true

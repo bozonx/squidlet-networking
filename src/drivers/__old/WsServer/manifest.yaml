@@ -1,0 +1,14 @@
+name: WsServer
+main: WsServer.ts
+system: true
+
+ios:
+  - WebSocketServer
+
+props:
+  host:
+    type: string
+    default: localhost
+  port:
+    type: number
+    default: 8080

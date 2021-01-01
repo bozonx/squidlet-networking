@@ -1,0 +1,12 @@
+name: ModbusMasterConnection
+main: ModbusMasterConnection.ts
+
+drivers:
+  - ModbusMaster
+  - SemiDuplexFeedback
+
+props: {}
+#  $base: 'drivers.WsServerSessions'
+#  port:
+#    type: number
+#    default: 8088

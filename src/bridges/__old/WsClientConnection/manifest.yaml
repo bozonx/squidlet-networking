@@ -1,0 +1,10 @@
+name: WsClientConnection
+main: WsClientConnection.ts
+
+#props:
+#  host:
+#    type: string
+#    default: localhost
+#  port:
+#    type: number
+#    default: 8080

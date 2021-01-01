@@ -1,0 +1,13 @@
+name: IoServer
+main: IoServer.ts
+
+drivers:
+  - WsServer
+
+props:
+  host:
+    type: string
+    default: localhost
+  port:
+    type: number
+    default: 8089

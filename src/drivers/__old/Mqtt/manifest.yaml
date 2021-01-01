@@ -1,0 +1,15 @@
+name: Mqtt
+main: Mqtt.ts
+system: true
+
+ios:
+  - Mqtt
+
+props:
+  url:
+    type: string
+    default: "http://localhost:1883"
+  username:
+    type: string
+  password:
+    type: string

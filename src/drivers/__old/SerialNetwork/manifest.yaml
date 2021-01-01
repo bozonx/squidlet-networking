@@ -1,0 +1,13 @@
+name: SerialNetwork
+main: SerialNetwork.ts
+
+drivers:
+  - Serial
+
+props:
+  # Id of bus which is configured at Serial IO params.
+  busId:
+    type: number | string
+    required: true
+#  requestTimeoutSec:
+#    type: number

@@ -1,0 +1,12 @@
+name: I2cMasterConnection
+main: I2cMasterConnection.ts
+
+drivers:
+  - I2cMaster
+  - SemiDuplexFeedback
+
+props: {}
+#  $base: 'drivers.WsServerSessions'
+#  port:
+#    type: number
+#    default: 8088
