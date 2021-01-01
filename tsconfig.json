@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "lib": ["es2018"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "noImplicitReturns": true,
+    "preserveSymlinks": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "target": "es5",
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["build", "node_modules"]
+}
